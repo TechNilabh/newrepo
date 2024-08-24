@@ -1,2 +1,2 @@
 # newrepo
-demo project
+The task project involving building a birthday site. I used React JS, Aceternity UI, Bootstrap for building the frontend of the project. Due to some issue i was unable to complete the project but have uploaded all components in my file which unfornately i was unable to properly resize due to some unavoidable circumstances. The idea was building a birthday site with features such as uploading notes, images, memes to wish the birthday guy. I have attached one of my other projects iNoteBook with the fike which was meant to be used in the Notes component of the project for recording notes. Currently working on fixing the issues.
