@@ -1,0 +1,31 @@
+.glass {
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(20px); 
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 1rem;
+    transition: background 0.3s ease, transform 0.3s ease;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .container img {
+    transition: opacity 0.3s ease;
+    object-fit: cover;
+  }
+  
+  .default-content {
+    opacity: 1;
+  }
+  
+  .hover-content {
+    opacity: 0;
+  }
+  
+  .container:hover .default-content {
+    opacity: 0;
+  }
+  
+  .container:hover .hover-content {
+    opacity: 1;
+  }
+  

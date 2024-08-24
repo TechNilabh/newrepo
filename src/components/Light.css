@@ -1,0 +1,25 @@
+img{
+    height: 40 px;
+    width: 50 px;
+    
+}
+.candle{
+    height: 40 px;
+    width: 50 px;
+    box-shadow: 0 0 10px #00ffff, 0 0 20px #00ffff, 0 0 30px #00ffff ;
+    align-items: center;
+}
+#load{
+    display:flex;
+    flex-direction: row;
+    margin: 50 px;
+}
+#up1{
+    height: 40 px;
+    width: 40px;   
+}
+#up2{
+    height: 40 px;
+    width: 40px;
+    
+}

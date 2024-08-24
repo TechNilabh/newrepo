@@ -1,0 +1,23 @@
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two cards per row */
+    gap: 20px; /* Space between cards */
+    margin-top: 20px; /* Space below the navbar */
+  }
+  
+  .card {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover .card-image {
+    transform: scale(1.1); /* Scale image on hover */
+  }
+  
+  .card-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card-text {
+    text-align: center; /* Center text */
+  }
+  

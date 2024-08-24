@@ -1,0 +1,64 @@
+.memories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #282c34; /* Dark background for contrast */
+    min-height: 100vh;
+  }
+  
+  .memory-lane-image {
+    max-width: 30%; /* Properly sized image */
+    height: auto;
+    margin-bottom: 20px;
+    margin-top: 80px; /* Adds space between the image and the navbar */
+  }
+  
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding-bottom: 50px; /* Space at the bottom */
+  }
+  
+  .card {
+    flex: 1 1 calc(33.333% - 40px);
+    max-width: calc(33.333% - 40px);
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.2); /* Glass effect */
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(10px); /* Glass effect */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 15px;
+    color: #fff; /* Text color for contrast */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .card {
+      flex: 1 1 calc(50% - 40px);
+      max-width: calc(50% - 40px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 1 1 100%;
+      max-width: 100%;
+    }
+  }
+  

@@ -1,0 +1,37 @@
+nav {
+    overflow: hidden;
+    background-color: green;
+    position: fixed;
+    width: 100%; /* Add this line */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.btn {
+    background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent white */
+    border: none;
+    color: #fff; /* Text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.4); /* Lighter on hover */
+}
+
+.form-control {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+body {
+    background-color: #f9e6c0; /* Light yellow */
+    font-family: 'Arial', sans-serif;
+}
+
+.btn {
+    background-color: #ff7f50; }
